@@ -1,8 +1,6 @@
-## SWTORTalents (Recruit by talent) ##
+# SWTORTalents (Recruit by talent)
 
 Show your Star Wars the Old Republic recruitment status by displaying the specific talent needed for each class.
-
- ![different views](http://mottie.github.com/swtorTalents/demo/views.jpg)
 
 ###Empire or Republic
 
