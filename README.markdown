@@ -4,6 +4,15 @@ Show your Star Wars the Old Republic recruitment status by displaying the specif
 
  ![different views](http://mottie.github.com/swtorTalents/demo/views.jpg)
 
+###Empire or Republic
+
+![which side](http://mottie.github.com/swtorTalents/demo/view1.jpg)
+
+### Compact view 
+`colorBackground` option - left `false` &amp; right `true`
+
+![compact](http://mottie.github.com/swtorTalents/demo/view2.jpg)
+
 ## Features ([Demo](http://mottie.github.com/swtorTalents/)) ##
 
 * This World of Warcraft class recruitment box shows the class needs by talent tree specialization.
@@ -73,14 +82,13 @@ $(function(){
 
 **CSS Styles:**
 
-* `.recruitTitle` - Styles the title of the widget above the box. The text of this title is in blue, look for "Recruitment Needs".
-* `.recruitTalent` - Sets the overall style of the widget. Set to be 200px wide by default.
+* `.recruitTalent` - Sets the overall style of the widget. Set to be 180px wide by default.
 * `.high` - High priority text color (green by default). The tooltip background color is also set from this text color.
 * `.medium` - Medium priority text color (yellow by default).
 * `.low` - Low priority text color (red by default).
 * `.none` - No needs text color (grey by default).
 * `.usebg` - This sets the text color when the tooltip background color is being changed (black by default). Without this the text would be the same as the `#tooltip` definition.
-* `.talentIcons .high`, `.talentIcons .medium`, `.talentIcons .low` and `.talentIcons .none` - sets the opacity of the icon at each priority
+* `.talentIcons .high`, `.talentIcons .medium`, `.talentIcons .low` and `.talentIcons .none` - sets the opacity of the icon at each priority. *Add a border color here if desired*.
 * `.classIcon` - Styles the table cell that contains the class icon and class text. It also contains the background image sprite which contains an image of all the WoW classes
 * `.classIcon span` - Styles only the class text. It was included to add padding between the icon and the text.
 * `.talentIcons` - Styles the table cell that contains all three talent icons.
