@@ -1,0 +1,60 @@
+﻿html, body { height: 100%; margin: 0; }
+body { background: #000; color: #ddd; }
+
+a:link { color: #4183C4; text-decoration: none; }
+a:hover { text-decoration: underline; }
+a:visited, a:active { color: #f80; }
+
+.wrap {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -115px; /* Set footer height. */
+}
+
+header, footer {
+	background: #333;
+	text-align: center;
+}
+
+h1 {
+	margin: 0;
+	padding: 20px;
+}
+
+.panels { width: 450px; margin: 0 auto; }
+.box { width: 220px; float: left; margin-bottom: 20px; }
+
+h2 { text-align: center; }
+
+/* http://www.endigodesign.com/2010/07/html5-sticky-footer/ */
+footer, .push {
+	height: 100px; /* Set footer height. */
+	clear: both;
+}
+footer p {
+	font-size: 11px;
+	padding: 30px 50px;
+}
+
+/* Jatt Tooltip css
+ * https://github.com/Mottie/Jatt
+ */
+.tooltip { cursor:pointer; }
+#tooltip {
+	color:#dddddd;
+	background:#222222;
+	border: 1px solid #333333;
+	padding: 5px;
+	display: none;
+	opacity: 0.9;
+	filter: alpha(opacity=90);
+	text-align: left;
+	border-radius: 1em;
+	-moz-border-radius: 1em;
+	-webkit-border-radius: 1em;
+}
+/* used for sticky tooltips */
+#tooltip .close {
+ display: none;
+}

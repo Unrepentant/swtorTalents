@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>SWTOR Recruit by Talent (swtorTalents)</title>
+
+	<!-- jQuery (required) v1.2.6+ -->
+	 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.2/jquery.min.js"></script>
+
+	<!-- demo files (optional) -->
+	<link rel="stylesheet" href="demo/demo.css">
+	<!-- replace tooltip script below, as desired; but the plugin needs to support metadata styling of the tooltip -->
+	<script src="js/jquery.jatt.min.js"></script>
+
+	<!-- plugin (required) -->
+	<link href="css/swtortalents.css" rel="stylesheet">
+	<script src="js/swtortalents.js"></script>
+
+	<script>
+	$(function(){
+		$('.empire').swtorTalents({
+			side            : 'empire',
+			colorBackground : true,
+			addHeader       : true,
+			defaultNeed     : 'z', // Default need that is set when no setting is found
+			juggernaught    : "l,x",
+			maurader        : "n,n",
+			assassin        : "h,x",
+			sorceror        : "h,h",
+			powertech       : "",
+			mercenary       : "",
+			operative       : "",
+			sniper          : "h,h",
+			displayNames    : {
+				'None'   : 'None',
+				'Low'    : 'Low',
+				'Medium' : 'Medium',
+				'High'   : 'High'
+			}
+		});
+
+		$('.republic').swtorTalents({
+			side            : 'republic',
+			colorBackground : false,
+			addHeader       : true,
+			defaultNeed     : 'm', // Default need that is set when no setting is found
+			guardian        : "l,x",
+			sentinel        : "h,n",
+			sage            : "l,l",
+			shadow          : "h,h",
+			scoundrel       : "",
+			gunslinger      : "",
+			commando        : "l,l",
+			vanguard        : "",
+			displayNames    : {
+				'None'   : 'None',
+				'Low'    : 'Low',
+				'Medium' : 'Medium',
+				'High'   : 'High'
+			}
+		});
+
+	// initialize tooltip script
+	$.jatt();
+
+	});
+	</script>
+
+</head><body>
+
+<div class="wrap">
+
+	<header>
+		<h1><a href="https://github.com/Mottie/swtorTalents">SWTOR Recruit by Talents</a></h1>
+	</header>
+
+	<div class="panels">
+
+		<div class="box">
+			<h2> The Republic Needs You!</h2>
+			<div class="republic recruitTalent"></div>
+		</div>
+
+		<div class="box">
+			<h2>One word:<br>Cookies!</h2>
+			<div class="empire recruitTalent"></div>
+		</div>
+
+	</div>
+
+	<div class="push"><!--Sticky Footer Push--></div>
+
+</div>
+
+<footer>
+	<p>
+		This plugin and demo page are not endorsed by or affiliated with LucasArts, BioWare, or Electronic Arts. The names, logos and images of STAR WARS and related properties are trademarks in the United States and/or in other countries of Lucasfilm Ltd. and/or its affiliates. © 2008-2011 Lucasfilm Entertainment Company Ltd. or Lucasfilm Ltd. All Rights Reserved.
+	</p>
+</footer>
+
+</body></html>
