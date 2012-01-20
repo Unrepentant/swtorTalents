@@ -1,4 +1,4 @@
-/* Star Wars the Old Republic Recruit By Talent Widget
+/* Star Wars the Old Republic Recruit By Talent Widget v1.1
  * by Rob G (Mottie) 2011
  * http://mottie.guildportal.com
  * licensed under the MIT license.
@@ -94,22 +94,22 @@
    'High'   : 'High'
   }
   /* options used, but not listed; empty options will revert to the default need
-  (Empire)   juggernaught, maurader, assassin, sorceror, powertech, mercenary, operative, sniper
+  (Empire)   juggernaut, marauder, assassin, sorceror, powertech, mercenary, operative, sniper
   (Republic) guardian, sentinel, sage, shadow, scoundrel, gunslinger, commando, vanguard
   */
  };
 
  $.swtorTalents.empire = {
   "Sith Warrior": [{
-    "name": "Juggernaught",
+    "name": "Juggernaut",
     "icon": "icon_juggernaut",
-    "tree": [[ "Vengeance", "icon_juggernaught_veng" ],
-            [ "Immortal", "icon_juggernaught_immort" ]]
+    "tree": [[ "Vengeance", "icon_juggernaut_veng" ],
+            [ "Immortal", "icon_juggernaut_immort" ]]
   },{
-    "name": "Maurader",
-    "icon": "icon_maurader",
-    "tree": [[ "Annihilation", "icon_maurader_annihilation" ],
-            [ "Carnage", "icon_maurader_carnage" ]]
+    "name": "Marauder",
+    "icon": "icon_marauder",
+    "tree": [[ "Annihilation", "icon_marauder_annihilation" ],
+            [ "Carnage", "icon_marauder_carnage" ]]
   }],
   "Sith Inquisitor": [{
     "name": "Assassin",

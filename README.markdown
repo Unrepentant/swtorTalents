@@ -39,8 +39,8 @@ $(function(){
     addHeader       : true       // Add headers between groups; set to false for compact view
 
     /* Empire specific options */
-    juggernaught    : "x,x",
-    maurader        : "x,x",
+    juggernaut      : "x,x",
+    marauder        : "x,x",
     assassin        : "x,x",
     sorceror        : "x,x",
     powertech       : "x,x",
@@ -58,7 +58,7 @@ $(function(){
     commando        : "x,x",
     vanguard        : "x,x",
 
-    displayNames    : {   // change the need level displayed in the tooltip
+    displayNames    : {   // change the need level displayed in the tooltip (on the right side only)
      'None'   : 'None',   // e.g. 'None' : 'Closed'
      'Low'    : 'Low',    // the specific options above will still use "x", "n", "l", "m" and "h"
      'Medium' : 'Medium', // Look under the options section below for an expanded example
@@ -113,7 +113,7 @@ You can set this variable to `l` (low), `m` (medium) or `h` (high), anything els
 
       // when adding the talent need level, use "n" for "Closed"
       // and "h" for "Open" to show up in the tooltip
-      juggernaught    : "n,h",
+      juggernaut      : "n,h",
 
       // Change the level shown in the tooltip as to open and closed.
       displayNames    : {
@@ -127,8 +127,8 @@ You can set this variable to `l` (low), `m` (medium) or `h` (high), anything els
 
 ```javascript
 /* Empire specific options */
-juggernaught : "x,x",
-maurader     : "x,x",
+juggernaut   : "x,x",
+marauder     : "x,x",
 assassin     : "x,x",
 sorceror     : "x,x",
 powertech    : "x,x",
@@ -148,6 +148,10 @@ vanguard     : "x,x"
 ```
 
 ##Changelog##
+
+###Version 1.1 (1/20/2012)
+
+* Apparently I can't spell Jaggernaut nor Marauder.
 
 ###**Version 1.0 (12/13/2011)**
 

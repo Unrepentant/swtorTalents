@@ -43,7 +43,7 @@
 .icon_imperialagent, .icon_trooper { background-position: 0 -174px; }
 
 .icon_juggernaut, .icon_guardian { background-position: 0 0; }
-.icon_maurader, .icon_sentinel { background-position: 0 -50px; }
+.icon_marauder, .icon_sentinel { background-position: 0 -50px; }
 .icon_assassin, .icon_sage { background-position: 0 -100px; }
 .icon_sorceror, .icon_shadow { background-position: 0 -150px; }
 .icon_powertech, .icon_scoundrel { background-position: 0 -200px; }
@@ -51,10 +51,10 @@
 .icon_operative, .icon_commando { background-position: 0 -300px; }
 .icon_sniper, .icon_vanguard { background-position: 0 -350px; }
 
-.icon_juggernaught_veng, .icon_guardian_defense { background-position: 0 0; }
-.icon_juggernaught_immort, .icon_guardian_vigilance { background-position: 0 -50px; }
-.icon_maurader_annihilation, .icon_sentinel_watchman { background-position: 0 -100px; }
-.icon_maurader_carnage, .icon_sentinel_combat { background-position: 0 -150px; }
+.icon_juggernaut_veng, .icon_guardian_defense { background-position: 0 0; }
+.icon_juggernaut_immort, .icon_guardian_vigilance { background-position: 0 -50px; }
+.icon_marauder_annihilation, .icon_sentinel_watchman { background-position: 0 -100px; }
+.icon_marauder_carnage, .icon_sentinel_combat { background-position: 0 -150px; }
 .icon_assassin_deception, .icon_sage_seer { background-position: 0 -200px; }
 .icon_assassin_darkness, .icon_sage_telekinetic { background-position: 0 -250px; }
 .icon_sorceror_corruption, .icon_shadow_kinetic_combat { background-position: 0 -300px; }
