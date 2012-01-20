@@ -36,7 +36,7 @@ $(function(){
     tooltipClass    : 'tooltip', // Class added for tooltip script to target
     tooltipWidth    : 150,       // Tooltip width, added to the tooltip metadata
     tooltipMetadata : 'class',   // Location the tooltip meta data is added e.g. {width:150px;color:#ddd;background:#333;}
-    addHeader       : true       // Add headers between groups; set to false for compact view
+    addHeader       : true,      // Add headers between groups; set to false for compact view
 
     /* Empire specific options */
     juggernaut      : "x,x",
@@ -152,6 +152,7 @@ vanguard     : "x,x"
 ###Version 1.1 (1/20/2012)
 
 * Apparently I can't spell Jaggernaut nor Marauder.
+* Added PSD files with the icons used in the design folder.
 
 ###**Version 1.0 (12/13/2011)**
 
