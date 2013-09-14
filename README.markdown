@@ -4,14 +4,14 @@ Show your Star Wars the Old Republic recruitment status by displaying the specif
 
 ###Empire or Republic
 
-![which side](http://mottie.github.com/swtorTalents/demo/view1.jpg)
+![which side](http://Unrepentant.github.com/swtorTalents/demo/view1.jpg)
 
 ### Compact view 
 `colorBackground` option - left `false` &amp; right `true`
 
-![compact](http://mottie.github.com/swtorTalents/demo/view2.jpg)
+![compact](http://Unrepentant.github.com/swtorTalents/demo/view2.jpg)
 
-## Features ([Demo](http://mottie.github.com/swtorTalents/)) ##
+## Features ([Demo](http://Unrepentant.github.com/swtorTalents/)) ##
 
 * This World of Warcraft class recruitment box shows the class needs by talent tree specialization.
 * Icons are set to fade out as the need requirements lessen (set in the CSS).
